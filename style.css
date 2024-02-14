@@ -1,0 +1,188 @@
+*{font-family: 'Rajdhani', sans-serif;
+}
+
+h1,h2,h3,h4{
+  font-family: 'Nova Square', sans-serif;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+}
+
+
+img{
+  height: 100px; 
+}
+
+.nav-item{
+  margin-right:70px;
+  margin-left: 70px;
+}
+
+.header{
+  justify-content: center;
+  align-items: end;   
+  background-image:linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0.1)), url(switzerland-862870_1920.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.lorem{
+  font-size: 110px;
+  letter-spacing: 80px;
+  color: darkred;
+  padding-top:300px;
+}
+
+.montagnebianche{
+  height: 50vh;
+  background-image: url(mountains2.png);
+  background-size: cover;
+  background-position: bottom;
+  
+}
+
+.sottomonte {
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+  max-width: 80%;
+  height: 100%;
+  margin: 0;
+  position:relative;
+}
+
+.sottomonte::before{
+  content: open-quote;
+  font-size: 60px;
+  color: darkred;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+}
+
+.sottomonte::after{
+  content: close-quote;
+  font-size: 60px;
+  color: darkred;
+  position: absolute;
+  bottom: -50px;
+  right: -15px;
+}
+
+
+.titolo{
+  color:darkred
+}
+
+.icone{ 
+  border-bottom: solid darkred;
+  font-size: medium;
+  color: darkred;
+}
+
+.sl{
+  color: black ;
+  font-weight:600;
+}
+
+.sl::before{
+  
+  border: 10px;
+  border-radius: 100%;
+}
+
+main{
+  background-color:#ececec;
+}
+
+.bottone{
+  margin-top: 20px;
+  background-color: darkred;
+  color: white;
+  font-family:  'Nova Square', sans-serif;
+}
+.bottonedisplay{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.alberi{
+  background-image: url(trees2.png);
+  position: relative;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.loremtimeline{
+  background-color: white;
+}
+
+
+.loremtimeline{
+  padding-left: 50px;
+  height: 60vh;
+  background-image: url(single.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right bottom;
+}
+
+
+.timeline{
+  color: darkred;
+  position:relative;
+}
+
+.listimeline{
+  list-style-type:circle;
+}
+
+
+.imground{
+  width: 100px; 
+  height: 100px;
+  border: 2px solid darkred;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.OUR{
+  color: darkred;
+}
+
+.icon-spacing {
+  margin-right: 20px;
+}
+
+.alberirossi {
+  background-image: url(other.png);
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  /* color: black; */  
+}
+
+.fondopagina{
+  background-color: darkred;
+
+}
+
+.hofinitoamen{
+  justify-content: left;
+  margin-left: 20px;
+  background-color: darkred;
+  color: white;
+  padding: 20px;
+
+}
+
+.ultimalista{
+  color:white
+}
